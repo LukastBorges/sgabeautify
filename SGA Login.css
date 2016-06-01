@@ -1,0 +1,150 @@
+#cabecalho_arquidiocese {
+    display: none;
+}
+
+#coluna_barra_lateral {
+    border-left: 1px solid #147898;
+    box-shadow: -2px 0px 2px -1px rgba(0,0,0,0.2);
+    font-family: Calibri, sans-serif;
+    padding: 0em 3em;
+}
+
+#coluna_barra_lateral > div:nth-child(3) > table > tfoot > tr > td > a > img {
+    background: url(https://cdn4.iconfinder.com/data/icons/google-3/1000/Google_2015_logo-64.png) no-repeat;
+    box-sizing: border-box;
+    display: flex;
+    height: 21px;
+    padding-left: 168px;
+    width: 64px;
+}
+
+body {
+    margin-top: 3em;
+}
+
+body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3), body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr:nth-child(1), body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(3) > td, body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(4) > td {
+    display: none;
+}
+
+body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > center > table > tbody > tr > td > center > table {
+    background-color: #ffffff;
+    border: none;
+    padding-top: 1.5em;
+}
+
+body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > center > table > tbody > tr > td > center > table > tbody > tr > td:nth-child(1) > p > b > font > span {
+    color: #01579B;
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+}
+
+body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > center > table > tbody > tr > td > center > table > tbody > tr > td:nth-child(1), body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(3) > td:nth-child(3) {
+    padding-bottom: 20px;
+}
+
+body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > font > span > input[type="Text"], body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(3) > td:nth-child(2) > p > font > span > input[type="Password"], body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(4) > td:nth-child(2) > p > font > span > select, #coluna_barra_lateral > div:nth-child(3) > table > tbody > tr > td:nth-child(1) > input {
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #CFD8DC;
+    border-radius: 2px;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075);
+    color: #666666;
+    display: block;
+    font-size: 12px;
+    height: 32px;
+    line-height: 1.846;
+    padding: 6px 6px;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    width: 100%;
+}
+
+body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > font > span > input[type="Text"]:focus, body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(3) > td:nth-child(2) > p > font > span > input[type="Password"]:focus {
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    border-color: #66afe9;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0;
+}
+
+body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(3) > td:nth-child(3) > p > font > span > a {
+    color: #2196F3;
+    font-family: Calibri, sans-serif;
+    font-size: 11px;
+}
+
+body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(3) > td:nth-child(3) > p > font > span > a:hover {
+    color: #FF5722;
+}
+
+body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(5) {
+    display: none;
+}
+
+body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(7) > td:nth-child(2) > p:nth-child(1) > font > span > input {
+    height: 2.5em;
+}
+
+body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > p {
+    height: 1.5em;
+    width: 30em;
+}
+
+body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > p > b > font > span {
+    color: #424242;
+    font-family: Calibri, sans-serif;
+    font-size: 22px;
+}
+
+body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td, body > form > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td {
+    background-color: white;
+    box-shadow: 2px 2px 3px 0px rgba(0,0,0,0.2);
+}
+
+body, body > form > center > table > tbody > tr > td > center {
+    background-color: #ECEFF1;
+}
+
+input.botao, #coluna_barra_lateral > div:nth-child(3) > table > tbody > tr > td:nth-child(2) > input {
+    -moz-user-select: none;
+    -ms-touch-action: manipulation;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    background-color: #147898;
+    background-image: none;
+    border: 1px solid transparent;
+    border-color: transparent;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: normal;
+    height: 100%;
+    line-height: 1.846;
+    margin-bottom: 0;
+    text-align: center;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.botao:hover, #coluna_barra_lateral > div:nth-child(3) > table > tbody > tr > td:nth-child(2) > input:hover {
+    background-color: #1a9cc6 ;
+    border-color: rgba(0, 0, 0, 0);
+    color: #ffffff;
+}
+
+table {
+    background: none;
+    border: none;
+}
+
+tbody tr td {
+    background: none;
+    background-color: #ffffff;
+    color: #575757;
+}
+
