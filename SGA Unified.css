@@ -51,12 +51,10 @@ body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2
     padding: 0.75em 0em;
 }
 
-
-/*Largura do menu superior principal*/
-
-body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(2) > td:nth-child(3) {
-    min-width: 1100px;
-    width: 87.5%;
+.ctr {
+    color: white;
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
 }
 
 
@@ -67,7 +65,9 @@ body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > t
 body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2),
 body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2),
 body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2),
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) {
     width: 224px;
 }
 
@@ -123,6 +123,7 @@ body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table 
 #topnav_6,
 #topnav_7 {
     background-color: transparent;
+    border-right: 3px solid #ECEFF1;
 }
 
 
@@ -294,6 +295,7 @@ body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table 
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3) {
     padding: 0px 0px 0px 10px;
     vertical-align: middle;
+    min-width: 1100px;
     width: 87.5%;
 }
 
@@ -315,7 +317,12 @@ body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table 
 
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table:nth-child(1),
 body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table,
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(2),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(3) > td,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(4) > td,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(5) > td {
     background-color: white;
     box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
@@ -388,7 +395,8 @@ body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(1),
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1),
 body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1),
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) {
     width: 10px;
 }
 
@@ -399,7 +407,8 @@ body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > t
 body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p > span > img,
 body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p > span > img,
 body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p > span > img,
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p > span > img {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p > span > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p > span > img {
     background: url(http://www.pucminas.br/anima/images/brasao-pucminas-pequeno.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -416,7 +425,8 @@ body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody
 body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr,
 body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr,
 body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr,
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -431,8 +441,11 @@ body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > t
 body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p > span > b > font > span,
 body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p > span > b > font > span,
 body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p > span > b > font > span,
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p > span > b > font > span {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p > span > b > font > span,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p > span > b > font > span {
     color: #616161;
+    font-family: Calibri, sans-serif;
+    font-size: 25px;
 }
 
 
@@ -442,7 +455,8 @@ body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > t
 body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p > span:nth-child(1) > a > img,
 body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p > span:nth-child(1) > a > img,
 body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p > span:nth-child(1) > a > img,
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p > span:nth-child(1) > a > img {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p > span:nth-child(1) > a > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p > span:nth-child(1) > a > img {
     background: url(https://cdn2.iconfinder.com/data/icons/picons-basic-3/57/basic3-005_newspaper-32.png) no-repeat;
     box-sizing: border-box;
     display: flex;
@@ -458,7 +472,8 @@ body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > t
 body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p > span:nth-child(1) > a > img,
 body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p > span:nth-child(1) > a > img,
 body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p > span:nth-child(1) > a > img,
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p > span:nth-child(1) > a > img {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p > span:nth-child(1) > a > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p > span:nth-child(1) > a > img {
     background: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-help-32.png) no-repeat;
     box-sizing: border-box;
     display: flex;
@@ -474,7 +489,8 @@ body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > t
 body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(1) > a > img,
 body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(1) > a > img,
 body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(1) > a > img,
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(1) > a > img {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(1) > a > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(1) > a > img {
     background: url(https://cdn3.iconfinder.com/data/icons/meanicons-base/512/meanicons_66-32.png) no-repeat;
     box-sizing: border-box;
     display: flex;
@@ -508,18 +524,20 @@ body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > t
 body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(2) > font > span > a,
 body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(2) > font > span > a,
 body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(2) > font > span > a,
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(2) > font > span > a {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(2) > font > span > a,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(2) > font > span > a {
     padding-right: 17px;
 }
 
 
-/*Largura da coluna do nome do aluno no canto superior esquerdo*/
+/*Ajustes da coluna do nome do aluno no canto superior esquerdo*/
 
 body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2),
 body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2),
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2),
 body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(2) > td:nth-child(2),
-body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) {
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) {
     vertical-align: middle;
     padding-top: 5px;
     display: flex;
@@ -533,7 +551,8 @@ body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody
 body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td > p > span > b > font > span,
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td > p > span > b > font > span,
 body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(2) > td > p > span > b > font > span,
-body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td > p > span > b > font > span {
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td > p > span > b > font > span,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td > p > span > b > font > span {
     color: #1565C0;
 }
 
@@ -563,7 +582,9 @@ body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody
 body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td,
 body > table > tbody > tr:nth-child(2) > td,
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(1),
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(2) {
     padding-top: 10px;
 }
 
@@ -628,19 +649,110 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table
     color: steelblue;
 }
 
-::-moz-selection {
-    background: steelblue;
+
+/*Tabela de Notas*/
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr > td {
+    background-color: #ECEFF1;
+}
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr > td:nth-child(1) {
+    display: none;
+}
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr > td:nth-child(2) {
+    background-color: #d7e4ef;
+}
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(1) > tbody > tr:nth-child(2) > td {
+    background-color: steelblue;
+}
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr:nth-child(odd) > td {
+    background-color: #FFFFFF;
+    border: none;
+}
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr:nth-child(even) > td {
+    background-color: #EBEBEB;
+    border: none;
+}
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr > td:nth-child(4) > p {
+    display: flex;
+    justify-content: center;
+}
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr:nth-child(2) > td {
+    border: none;
+}
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(1) > tbody > tr:nth-child(2) > td > p > b:nth-child(2) > font > span,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(1) > tbody > tr:nth-child(2) > td > p > font > span {
     color: white;
 }
 
-::selection {
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > b > font > span,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(1) > td {
+    display: flex;
+    vertical-align: middle;
+    font-size: 21px;
+    background-color: white;
+    color: #616161;
+    padding: 5px 10px;
+}
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr > td:nth-child(2) > p > font > span {
+    color: black;
+}
+
+.class1 table td {
+    height: 30px;
+    width: 100%;
+    padding: 5px 5px 0px 5px;
+}
+
+.class1 table a {
+    text-decoration: none;
+    color: #0D47A1;
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+}
+
+.class1 > table a:hover {
+    color: #FF5722;
+}
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: float 5s infinite;
+}
+
+.class1 table th {
     background: steelblue;
+    height: 54px;
+    font-weight: lighter;
+    text-shadow: 0 1px 0 #38678f;
     color: white;
+    border: 1px solid #E0E0E0;
+    box-shadow: inset 0px 1px 2px #568ebd;
+    transition: all 0.2s;
+}
+
+.class1 table td.selected {
+    background: #d7e4ef;
+    color: white;
+}
+
+.class1 table td input:focus {
+    box-shadow: 0 1px 0 steelblue;
+    color: steelblue;
 }
 
 
 /*Background color*/
 
+#top_nav,
 body > form > table > tbody > tr:nth-child(1) > td,
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(1),
 body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(2) > td:nth-child(3),
@@ -653,7 +765,10 @@ body > table > tbody > tr:nth-child(2) > td:nth-child(1),
 body > table > tbody > tr:nth-child(2) > td:nth-child(2),
 body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3),
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3),
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td,
+body > p:nth-child(1) > table > tbody > tr > td > center > table,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3),
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table {
     background-color: #ECEFF1;
 }
 
@@ -665,13 +780,15 @@ body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > 
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table,
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table,
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table,
-body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table {
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) {
     width: 232px;
 }
 
 
 /*Remoção das bordas das tabelas do menu lateral esquerdo*/
 
+table.menulateral1,
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr > td > table > tbody > tr > td,
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(11),
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(12),
@@ -700,8 +817,12 @@ body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1)
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(11) > td:nth-child(2),
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td:nth-child(2),
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td,
-table.menulateral1,
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6) > td:nth-child(2) {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6) > td:nth-child(2),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(1) > td:nth-child(2),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td:nth-child(2),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(11) > td:nth-child(2),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6) > td:nth-child(2) {
     border: none;
 }
 
@@ -712,7 +833,9 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tb
 body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr,
 body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr,
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr,
-body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr {
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr {
     border-bottom: 1px solid #ECEFF1;
 }
 
@@ -738,7 +861,8 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tb
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img,
 body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img,
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img,
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn4.iconfinder.com/data/icons/small-n-flat/24/calendar-alt-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -750,7 +874,8 @@ body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1)
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img,
 body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img,
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img,
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678120-calendar-clock-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -762,7 +887,8 @@ body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1)
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img,
 body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img,
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img,
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn3.iconfinder.com/data/icons/education-1-9/48/22-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -774,7 +900,8 @@ body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1)
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img,
 body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img,
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img,
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn2.iconfinder.com/data/icons/email-solid-style/24/envelope---32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -786,7 +913,8 @@ body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1)
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img,
 body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img,
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img,
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn2.iconfinder.com/data/icons/color-ui-kit/48/settings-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -798,7 +926,8 @@ body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1)
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img,
 body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img,
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img,
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn4.iconfinder.com/data/icons/ikooni-outline-seo-web/128/seo-71-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -810,7 +939,8 @@ body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1)
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img,
 body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img,
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img,
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn3.iconfinder.com/data/icons/random-flat-2/64/email_contact_write_send-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -822,7 +952,8 @@ body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1)
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img,
 body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img,
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img,
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn3.iconfinder.com/data/icons/flat-icons-web/40/Versions-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -837,7 +968,8 @@ body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1)
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table,
 body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table,
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table,
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table {
     margin-top: 30px;
 }
 
@@ -851,7 +983,9 @@ body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > 
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td,
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table,
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table,
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table {
     box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
