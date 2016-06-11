@@ -160,8 +160,11 @@ body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table 
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > p > b > font,
 body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > p > span > b > font > span,
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(1) > td > p > b:nth-child(1) > font > span,
-body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr > td:nth-child(1) > p > b > font > span {
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(6) > td > p > b > font > span,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr > td:nth-child(1) > p > b > font > span,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(3) > td > p > table > tbody > tr > td > p > b > font > span {
     padding-left: 10px;
+    display: block
 }
 
 
@@ -221,11 +224,20 @@ body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(2) > cent
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > p > b > font > span,
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > b > font > span,
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(1) > td > p > b:nth-child(1) > font > span,
-body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr > td:nth-child(1) > p > b > font > span {
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr > td:nth-child(1) > p > b > font > span,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(3) > td > p > table > tbody > tr > td > p > b > font > span {
     color: #1565C0;
     font-family: Calibri, sans-serif;
     font-size: 22px;
     font-weight: bold;
+}
+
+
+/*Remoção de linhas do conteúdo principal*/
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(4) > td > p > table {
+    border: none;
+    background-color: white;
 }
 
 
@@ -320,15 +332,22 @@ body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(2) > cent
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table,
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(2),
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td,
-body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(3) > td,
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(4) > td,
-body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(5) > td {
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(5) > td,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(3) > td > p {
     background-color: white;
     box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
     font-family: Calibri, sans-serif;
     height: auto;
+}
+
+
+/*Ajuste do card de Notas e Frequencias*/
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(3) > td > p {
+    margin-top: 12px !important;
 }
 
 
@@ -589,6 +608,13 @@ body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nt
 }
 
 
+/*Espaçamento espcial do menu lateral com o bloco do conteúdo principal*/
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p {
+    margin-right: 10px !important;
+}
+
+
 /*Tabela do calendário*/
 
 #calendar table {
@@ -652,10 +678,6 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table
 
 /*Tabela de Notas*/
 
-body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr > td {
-    background-color: #ECEFF1;
-}
-
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr > td:nth-child(1) {
     display: none;
 }
@@ -687,12 +709,43 @@ body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nt
     border: none;
 }
 
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(2) {
+    display: none;
+}
+
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(1) > tbody > tr:nth-child(2) > td > p > b:nth-child(2) > font > span,
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(1) > tbody > tr:nth-child(2) > td > p > font > span {
     color: white;
 }
 
-body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > b > font > span,
+
+/*Aulas*/
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(1) > tbody > tr:nth-child(2) > td:nth-child(2) > p > b > font > span {
+    color: #8BC34A;
+}
+
+
+/*Faltas*/
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(1) > tbody > tr:nth-child(2) > td:nth-child(3) > p > b > font > span {
+    color: #F44336;
+}
+
+
+/*Faltas link*/
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(1) > tbody > tr:nth-child(2) > td:nth-child(3) > p > font:nth-child(3) > span > a {
+    color: #263238;
+}
+
+
+/*Faltas link hover*/
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(1) > tbody > tr:nth-child(2) > td:nth-child(3) > p > font:nth-child(3) > span > a:hover {
+    color: #FF5722;
+}
+
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(1) > td {
     display: flex;
     vertical-align: middle;
@@ -704,6 +757,10 @@ body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nt
 
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr > td:nth-child(2) > p > font > span {
     color: black;
+}
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) {
+    padding-bottom: 50px;
 }
 
 .class1 table td {
@@ -778,10 +835,10 @@ body > form > p:nth-child(3) > table > tbody > tr > td > p > table {
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table,
 body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table,
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1),
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table,
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table,
-body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table,
-body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) {
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table {
     width: 232px;
 }
 
@@ -822,7 +879,8 @@ body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nt
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td:nth-child(2),
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(11) > td:nth-child(2),
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td,
-body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6) > td:nth-child(2) {
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6) > td:nth-child(2),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(10) > td:nth-child(2) {
     border: none;
 }
 
