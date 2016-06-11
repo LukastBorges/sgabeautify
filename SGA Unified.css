@@ -171,7 +171,6 @@ body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nt
 /*Fonte de texto do conteúdo principal*/
 
 center font span {
-    color: #616161;
     font-family: Calibri, sans-serif;
     font-size: 16px;
 }
@@ -374,6 +373,15 @@ body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:
 
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(9) > td > center > table > tbody > tr > td > table > tbody > tr > td > p {
     display: flex;
+}
+
+
+/*Tabela do PUC Mail*/
+
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(9) > td > center > table > tbody > tr > td > table,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(9) > td > center > table > tbody > tr > td > table > tbody > tr > td {
+    border: none;
+    padding: 6px 2px;
 }
 
 
@@ -617,7 +625,9 @@ body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nt
 
 /*Tabela do calendário*/
 
-#calendar table {
+#calendar table,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(9) > td > center > table,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(9) > td > center > table > tbody > tr:nth-child(2) > td > center > table {
     border: none;
 }
 
@@ -654,7 +664,8 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table
     animation: float 5s infinite;
 }
 
-#Calendar > table > tbody > tr > td > table th {
+#Calendar > table > tbody > tr > td > table th,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(9) > td > center > table > tbody > tr:nth-child(2) > td > center > table td {
     background: steelblue;
     height: 54px;
     font-weight: lighter;
@@ -690,12 +701,14 @@ body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nt
     background-color: steelblue;
 }
 
-body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr:nth-child(odd) > td {
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr:nth-child(odd) > td,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(9) > td > center > table > tbody > tr:nth-child(odd) > td {
     background-color: #FFFFFF;
     border: none;
 }
 
-body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr:nth-child(even) > td {
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr:nth-child(even) > td,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(9) > td > center > table > tbody > tr:nth-child(even) > td {
     background-color: #EBEBEB;
     border: none;
 }
@@ -759,7 +772,8 @@ body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nt
     color: black;
 }
 
-body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) {
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3),
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(9) > td > center {
     padding-bottom: 50px;
 }
 
@@ -880,7 +894,8 @@ body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nt
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(11) > td:nth-child(2),
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td,
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6) > td:nth-child(2),
-body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(10) > td:nth-child(2) {
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(10) > td:nth-child(2),
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(10) > td:nth-child(2) {
     border: none;
 }
 
