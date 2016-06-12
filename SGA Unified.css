@@ -604,7 +604,6 @@ body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:
 body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) {
     padding-top: 5px;
     display: block;
-    vertical-align: middle;
     justify-content: center;
 }
 
@@ -1122,6 +1121,13 @@ body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:
     -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
 }
 
+/*Box shadow para o conteúdo principal*/
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table {
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
 
 /*Espaçamento do titulo do menu das disciplinas*/
 
@@ -1314,4 +1320,176 @@ option {
     font-weight: bold;
     color: #616161;
     text-align: center;
+}
+
+
+/*Ajustes das páginas das disciplinas*/
+
+.menu-sel_01 > div > div,
+.menu-sel_02 > div > div {
+    background: white;
+    border-color: #0D47A1;
+    border-width: 0px 0px 2px 0px;
+    color: #0D47A1;
+    display: block;
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    height: 1em;
+    line-height: 1.846;
+    margin: auto;
+    margin-right: 2px;
+    padding: 0px 0px 14px 0px;
+}
+
+#div_apoio > table > tbody > tr > td > a,
+#div_comunicacao > table > tbody > tr > td > a {
+    background: white;
+    color: #616161;
+    display: block;
+    font-family: Calibri, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 1em;
+    line-height: 1.846;
+    padding: 0px 0px 14px 0px;
+}
+
+#div_apoio > table > tbody > tr > td > a:hover,
+#div_comunicacao > table > tbody > tr > td > a:hover {
+    background: #2196F3;
+    color: white;
+}
+
+#div_apoio,
+#div_comunicacao,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(3) > td,
+#div_apoio > table > tbody > tr > td,
+#div_comunicacao > table > tbody > tr > td {
+    background: transparent;
+    border: none;
+    padding: 0px;
+}
+
+.aba01 > div > div,
+.aba02 > div > div {
+    background: white;
+    border-color: #E0E0E0;
+    border-width: 0px 0px 2px 0px;
+    color: #616161;
+    display: block;
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    height: 1em;
+    line-height: 1.846;
+    margin: auto;
+    margin-right: 2px;
+    padding: 0px 0px 14px 0px;
+}
+
+.aba01 > div > div:hover,
+.aba02 > div > div:hover {
+    border-bottom-color: #1565C0;
+    color: #0D47A1;
+}
+
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a:last-child > img {
+    background: url(https://cdn3.iconfinder.com/data/icons/Iconshock_Folders/png/NORMAL/24/documents.png) no-repeat;
+    box-sizing: border-box;
+    height: 24px;
+    padding-left: 24px;
+    width: 24px;
+}
+
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon1,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon2,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon3,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon4,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon5,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon6,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon7,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon8,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon9,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon10,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon11,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon12,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon13,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon14,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon15,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon16,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon17,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon18,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon19,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon20,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon21,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon22,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon23,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon24,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon25,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon26,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon27,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon28,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon29,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon30,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon31,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon32,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon33,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon34,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon35,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon36,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(6) > td > p > table > tbody > tr:nth-child(4) > td:nth-child(2) > p > img {
+    background: url(https://cdn1.iconfinder.com/data/icons/fs-icons-ubuntu-by-franksouza-/22/document-save-as.png) no-repeat;
+    box-sizing: border-box;
+    height: 24px;
+    padding-left: 24px;
+    width: 24px;
+}
+
+body > form > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(11) > td > center > table > tbody > tr > td > p > table > tbody > tr:nth-child(1) > td:nth-child(1) > p > span:nth-child(1) > img {
+    background: url(https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678120-calendar-clock-24.png) no-repeat;
+    box-sizing: border-box;
+    height: 24px;
+    padding-left: 24px;
+    width: 24px;
+}
+
+body > form > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(11) > td > center > table > tbody > tr:nth-child(odd) > td {
+    background-color: white;
+    padding: 5px;
+}
+
+body > form > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(11) > td > center > table > tbody > tr:nth-child(even) > td {
+    padding: 5px;
+}
+
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(6) > td > p > table > tbody > tr > td:nth-child(1) > p > img {
+    background: url(https://cdn4.iconfinder.com/data/icons/square-2/30/square_checked_verified-16.png) no-repeat;
+    box-sizing: border-box;
+    height: 16px;
+    padding-left: 16px;
+    width: 16px;
+}
+
+.tb_conteudo {
+    border: none;
+}
+
+.com_efeito::selection {
+    background-color: black;
+}
+
+.celuladiferente {
+    display: none;
+}
+
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table,
+body > form > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr > td > center > table {
+    background-color: white;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 10px;
+    padding: 0 10px;
+    width: 98%;
 }
