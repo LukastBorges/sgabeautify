@@ -184,7 +184,12 @@ body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(2) > cent
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(1) > td > p > b:nth-child(1) > font > span,
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(6) > td > p > b > font > span,
 body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr > td:nth-child(1) > p > b > font > span,
-body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(3) > td > p > table > tbody > tr > td > p > b > font > span {
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(3) > td > p > table > tbody > tr > td > p > b > font > span,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > b > font > span,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > p > span > b > font > span,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > b > font > span,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(2) > td > p > b > font > span,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(1) > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > span:nth-child(1) > b > font > span {
     padding-left: 10px;
     display: block
 }
@@ -246,7 +251,12 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > b > font > span,
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(1) > td > p > b:nth-child(1) > font > span,
 body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr > td:nth-child(1) > p > b > font > span,
-body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(3) > td > p > table > tbody > tr > td > p > b > font > span {
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(3) > td > p > table > tbody > tr > td > p > b > font > span,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > b > font > span,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > p > span > b > font > span,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > b > font > span,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(2) > td > p > b > font > span,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(1) > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > span:nth-child(1) > b > font > span {
     color: #1565C0;
     font-family: Calibri, sans-serif;
     font-size: 22px;
@@ -257,6 +267,9 @@ body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nt
 /*Remoção de linhas do conteúdo principal*/
 
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(4) > td > p > table,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(3) > td,
+body > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(3) > td:nth-child(2),
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(2) > td,
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(9) > td > center > table > tbody > tr:nth-child(2) > td > p,
 body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(3) > td {
     border: none;
@@ -753,9 +766,14 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr > td:nth-child(4) > p,
 body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p,
 body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p,
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p,
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2)> p {
     display: flex;
     justify-content: center;
+}
+
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(2) > td:nth-child(2) {
+    display: flex !important;
 }
 
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr:nth-child(2) > td {
@@ -982,7 +1000,8 @@ body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > 
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img,
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img,
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img,
-body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn4.iconfinder.com/data/icons/small-n-flat/24/calendar-alt-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -996,7 +1015,8 @@ body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > 
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img,
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img,
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img,
-body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678120-calendar-clock-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -1010,7 +1030,8 @@ body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > 
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img,
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img,
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img,
-body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn3.iconfinder.com/data/icons/education-1-9/48/22-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -1024,7 +1045,8 @@ body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > 
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img,
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img,
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img,
-body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn2.iconfinder.com/data/icons/email-solid-style/24/envelope---32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -1038,7 +1060,8 @@ body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > 
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img,
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img,
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img,
-body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn2.iconfinder.com/data/icons/color-ui-kit/48/settings-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -1052,7 +1075,8 @@ body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > 
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img,
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img,
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img,
-body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn4.iconfinder.com/data/icons/ikooni-outline-seo-web/128/seo-71-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -1066,7 +1090,8 @@ body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > 
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img,
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img,
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img,
-body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn3.iconfinder.com/data/icons/random-flat-2/64/email_contact_write_send-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -1080,7 +1105,8 @@ body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > 
 body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img,
 body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img,
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img,
-body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn3.iconfinder.com/data/icons/flat-icons-web/40/Versions-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -1116,13 +1142,6 @@ body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nt
 body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table,
 body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table,
 body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table {
-    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
-}
-
-/*Box shadow para o conteúdo principal*/
-body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table {
     box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
@@ -1394,7 +1413,8 @@ body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > t
     color: #0D47A1;
 }
 
-body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a:last-child > img {
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a:last-child > img,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr > td > p > font > span > table > tbody > tr > td:nth-child(1) > a:last-child > img {
     background: url(https://cdn3.iconfinder.com/data/icons/Iconshock_Folders/png/NORMAL/24/documents.png) no-repeat;
     box-sizing: border-box;
     height: 24px;
@@ -1438,6 +1458,13 @@ body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > t
 body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon34,
 body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon35,
 body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon36,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr > td > p > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon3,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr > td > p > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon4,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr > td > p > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon5,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr > td > p > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon3,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr > td > p > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon6,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr > td > p > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon7,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr > td > p > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon8,
 body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(6) > td > p > table > tbody > tr:nth-child(4) > td:nth-child(2) > p > img {
     background: url(https://cdn1.iconfinder.com/data/icons/fs-icons-ubuntu-by-franksouza-/22/document-save-as.png) no-repeat;
     box-sizing: border-box;
@@ -1484,7 +1511,8 @@ body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > t
 }
 
 body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table,
-body > form > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr > td > center > table {
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table {
     background-color: white;
     box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
     -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
@@ -1492,4 +1520,12 @@ body > form > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > t
     margin-left: 10px;
     padding: 0 10px;
     width: 98%;
+}
+
+
+/*Ajuste do card box central*/
+
+body > form > table > tbody > tr:nth-child(2),
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) {
+    display: block;
 }
