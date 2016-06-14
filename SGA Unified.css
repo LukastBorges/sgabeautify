@@ -1,45 +1,97 @@
 /*Respiro superior e cor de fundo da página*/
 
 html body {
-    margin-top: 0.5em;
+    margin: 10px;
     background-color: #ECEFF1;
 }
 
+
 /*Remoção de margens desnecessários no bloco superior*/
 
-body > form > table > tbody > tr:nth-child(1) > td > p, body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(2) > p, body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p, body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(3) > p, body > form > table > tbody > tr:nth-child(1) > td, body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3) > p {
+body > form > table > tbody > tr:nth-child(1) > td > p,
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(2) > p,
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p,
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(3) > p,
+body > form > table > tbody > tr:nth-child(1) > td,
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3) > p,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 0;
     padding-bottom: 0;
 }
 
+
 /*Menu superior*/
 
-#nav, #top_nav, #nav > font {
+#nav,
+#top_nav,
+#nav > font {
     display: flex;
-    width: 103em;
+    width: 100%;
 }
+
 
 /*Menu superior detalhes*/
 
-#topnav_1 > a, #topnav_2 > a, #topnav_3 > a, #topnav_4 > a, #topnav_5 > a, #topnav_6 > a, #topnav_7 > a {
-    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
-    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
-    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
+#topnav_1 > a,
+#topnav_2 > a,
+#topnav_3 > a,
+#topnav_4 > a,
+#topnav_5 > a,
+#topnav_6 > a,
+#topnav_7 > a {
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
     background-color: #2196F3;
     border-radius: 2px;
     color: white;
     font-family: Calibri, sans-serif;
-    font-size: 1.2em;
+    font-size: 18px;
     padding: 0.75em 0em;
 }
 
+.ctr {
+    color: white;
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+}
+
+
 /*Largura do bloco superior esquerdo*/
 
-body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(2), body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(2) > td:nth-child(2), body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2), body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2), body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2), body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) {
-    width: 14em;
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(2),
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(2) > td:nth-child(2),
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2),
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2),
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2),
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2),
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2),
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) {
+    width: 224px;
 }
+
+
+/*Ajustes do card de Arquivos Semestres Anteriores*/
+
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table {
+    position: absolute;
+    margin-top: -17px;
+    background-color: white;
+    width: max-content;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p {
+    margin: 8px 0px;
+}
+
 
 /*Flex top*/
 
@@ -47,29 +99,55 @@ body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > t
     display: flex;
 }
 
+
 /*Menu superior: hover*/
 
-#topnav_1 > a:hover, #topnav_2 > a:hover, #topnav_3 > a:hover, #topnav_4 > a:hover, #topnav_5 > a:hover, #topnav_6 > a:hover, #topnav_7 > a:hover {
+#topnav_1 > a:hover,
+#topnav_2 > a:hover,
+#topnav_3 > a:hover,
+#topnav_4 > a:hover,
+#topnav_5 > a:hover,
+#topnav_6 > a:hover,
+#topnav_7 > a:hover {
     background-color: #1565C0;
 }
 
+
 /*Remoção de margens extras do bloco da logo*/
 
-body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p, body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p {
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p {
     margin: 0;
 }
 
+
 /*Espaço na linha dos itens do menu superior*/
 
-#topnav_1 li, #topnav_2 li, #topnav_3 li, #topnav_4 li, #topnav_5 li, #topnav_6 li, #topnav_7 li {
+#topnav_1 li,
+#topnav_2 li,
+#topnav_3 li,
+#topnav_4 li,
+#topnav_5 li,
+#topnav_6 li,
+#topnav_7 li {
     background-color: white;
 }
 
+
 /*Espaço ao redor dos itens do menu superior*/
 
-#topnav_1, #topnav_2, #topnav_3, #topnav_4, #topnav_5, #topnav_6, #topnav_7 {
+#topnav_1,
+#topnav_2,
+#topnav_3,
+#topnav_4,
+#topnav_5,
+#topnav_6,
+#topnav_7 {
     background-color: transparent;
+    border-right: 3px solid #ECEFF1;
 }
+
 
 /*Classe com função hover dos itens */
 
@@ -80,6 +158,7 @@ body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-
     color: #2196F3;
 }
 
+
 /*Classe de destaque dos itens das notícias*/
 
 .bVermelho {
@@ -87,6 +166,7 @@ body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-
     font-size: 14px;
     color: #795548;
 }
+
 
 /*Outra classe de destaque para itens das noticias*/
 
@@ -96,19 +176,51 @@ body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-
     color: #FF5722;
 }
 
+
 /*Classe do título do conteúdo principal*/
 
-.class1, body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > p > b > font {
-    padding-left: 1em;
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > p > b > font,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > p > span > b > font > span,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(1) > td > p > b:nth-child(1) > font > span,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(6) > td > p > b > font > span,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr > td:nth-child(1) > p > b > font > span,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(3) > td > p > table > tbody > tr > td > p > b > font > span,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > b > font > span,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > p > span > b > font > span,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > b > font > span,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(2) > td > p > b > font > span,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(1) > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > span:nth-child(1) > b > font > span {
+    padding-left: 10px;
+    display: block
 }
 
-/*Fonte de texto do donteúdo principal*/
+
+/*Fonte de texto do conteúdo principal*/
 
 center font span {
-    color: #616161;
     font-family: Calibri, sans-serif;
     font-size: 16px;
 }
+
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > center > table > tbody > tr > td > p > table > tbody > tr > td > p > span > span > b > font > span {
+    color: white;
+}
+
+
+/*Respiro do texto de Mensagens*/
+
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(4) > td > p,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td {
+    padding-left: 10px;
+}
+
+
+/*Respiro do texto de configurações*/
+
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table > tbody > tr:nth-child(5) > td > center > table > tbody > tr:nth-child(1) > td:nth-child(2) > p {
+    padding-right: 20px;
+}
+
 
 /*Fonte de link do donteúdo principal*/
 
@@ -123,6 +235,7 @@ center a:hover {
     color: #FF5722;
 }
 
+
 /*Alinhamento do texto e icone da seção de mensagens*/
 
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(5) > td > p > table > tbody > tr > td > p {
@@ -130,14 +243,39 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table
     align-items: center;
 }
 
+
 /*Título do conteúdo principal*/
 
-body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > p > span > b > font > span, body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > p > b > font > span {
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > p > span > b > font > span,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > p > b > font > span,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > b > font > span,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(1) > td > p > b:nth-child(1) > font > span,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr > td:nth-child(1) > p > b > font > span,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(3) > td > p > table > tbody > tr > td > p > b > font > span,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td > p > b > font > span,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(2) > td > p > span > b > font > span,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > b > font > span,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(2) > td > p > b > font > span,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(1) > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > span:nth-child(1) > b > font > span {
     color: #1565C0;
     font-family: Calibri, sans-serif;
     font-size: 22px;
     font-weight: bold;
 }
+
+
+/*Remoção de linhas do conteúdo principal*/
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(4) > td > p > table,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(3) > td,
+body > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(3) > td:nth-child(2),
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(2) > td,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(9) > td > center > table > tbody > tr:nth-child(2) > td > p,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(3) > td {
+    border: none;
+    background-color: white;
+}
+
 
 /*Links do menu lateral*/
 
@@ -148,24 +286,30 @@ body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(2) > cent
     font-weight: bold;
 }
 
+
 /*Texto especial do menu lateral esquerdo*/
 
 .class2 font {
     color: #FF5722;
 }
 
+
 /*Links do menu lateral: hover*/
 
-.class2 a:hover, .class2 a:active, .class2 font:hover {
+.class2 a:hover,
+.class2 a:active,
+.class2 font:hover {
     color: #2196F3;
 }
+
 
 /*Classe do menu lateral das disciplinas*/
 
 .desapertado {
-    padding: 1.5em;
+    padding: 15px;
     border: none;
 }
+
 
 /*Links das disciplinas*/
 
@@ -177,61 +321,116 @@ body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(2) > cent
     text-align: justify;
 }
 
+
 /*Hover dos links das disciplinas*/
 
 .desapertado a:hover {
     color: #2196f3;
 }
 
+
 /*Espaçamento do bloco do meio da linha superior*/
 
-body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3), body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3), body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3), body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3), body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(3), body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(2) > td:nth-child(3), body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3), body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3), body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3), body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3) {
-    padding: 0em 0em 0em 1em;
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3),
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3),
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3),
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3),
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(3),
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(2) > td:nth-child(3),
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3),
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3),
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3),
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3) {
+    padding: 0px 0px 0px 10px;
     vertical-align: middle;
+    min-width: 1100px;
+    width: 87.5%;
 }
+
 
 /*Classe dos subitens do menu superior*/
 
 .id1 {
-    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
-    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
-    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
     color: grey;
     font-family: Calibri, sans-serif;
     font-size: 18px;
-    padding: 1em;
+    padding: 10px;
 }
+
 
 /*Card box do conteudo principal*/
 
-body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table:nth-child(1), body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table, body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table {
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table:nth-child(1),
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(2),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(4) > td,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(5) > td,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(3) > td > p,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) {
     background-color: white;
-    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
-    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
-    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
     font-family: Calibri, sans-serif;
-    margin-right: 1em;
-    height: 100%;
-    width: 101em;
+    height: auto;
 }
+
+
+/*Ajuste do card de Notas e Frequencias*/
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(3) > td > p {
+    margin-top: 12px !important;
+}
+
+
+/*Ajuste do conteúdo do card box Configurações*/
+
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table > tbody > tr:nth-child(4) > td > p,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table > tbody > tr:nth-child(5) > td > center > table > tbody > tr:nth-child(10) > td > p {
+    display: flex;
+    padding-left: 10px;
+}
+
 
 /*Remoção de margens desnecessárias no card box principal*/
 
-body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p, center p {
+center p,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > p,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(1) > td > p {
     margin: 0;
 }
 
+
 /*Ajuste das linhas da seção do PUC Mail*/
+
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(9) > td > center > table > tbody > tr > td > table > tbody > tr > td > p {
     display: flex;
 }
 
+
+/*Tabela do PUC Mail*/
+
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(9) > td > center > table > tbody > tr > td > table,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(9) > td > center > table > tbody > tr > td > table > tbody > tr > td {
+    border: none;
+    padding: 6px 2px;
+}
+
+
 /*Alinhamento do Calendário e conjunto superior de seleção do mês*/
 
-#Calendar, #NavBar {
+#Calendar,
+#NavBar {
     display: flex;
     justify-content: center;
 }
+
 
 /*Classe dos subitens do menu superior: hover*/
 
@@ -240,51 +439,93 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table
     color: black;
 }
 
+
 /*Itens do menu lateral*/
 
 .itens_menu1 {
     background-color: white;
     border: none;
-    padding: 0.5em;
+    padding: 5px;
 }
+
 
 /*Area a esquerda da logo PUC Minas*/
 
-body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(1), body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(2) > td:nth-child(1), body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(1), body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1), body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(1), body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1), body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(1), body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1), body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1), body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) {
-    width: 1em;
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(1),
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(2) > td:nth-child(1),
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(1),
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1),
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(1),
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1),
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(1),
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1),
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1),
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) {
+    width: 10px;
 }
+
 
 /*Logo PUC Minas*/
 
-body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(2) > p > span > img, body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p > span > img, body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p > span > img, body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p > span > img, body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p > span > img {
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(2) > p > span > img,
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p > span > img,
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p > span > img,
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p > span > img,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p > span > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p > span > img,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p > span > img {
     background: url(http://www.pucminas.br/anima/images/brasao-pucminas-pequeno.png) no-repeat;
     box-sizing: border-box;
     display: block;
     height: 58px;
-    margin-left: 5em;
+    margin: 0 auto;
     padding-left: 69px;
     width: 69px;
 }
 
+
 /*Alinhamento vertical e espaçamento entre itens da linha superior da página*/
 
-body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr, body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr, body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr, body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr, body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr {
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr,
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr,
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr,
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-height: 4em;
-    width: 102em;
+    max-height: 40px;
+    width: 101%;
 }
+
 
 /*Texto superior SGA*/
 
-body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p > span > b > font > span, body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p > span > b > font > span, body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p > span > b > font > span, body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p > span > b > font > span, body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p > span > b > font > span {
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p > span > b > font > span,
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p > span > b > font > span,
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p > span > b > font > span,
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p > span > b > font > span,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p > span > b > font > span,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p > span > b > font > span,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p > span > b > font > span {
     color: #616161;
+    font-family: Calibri, sans-serif;
+    font-size: 25px;
 }
+
 
 /*Icone superior de notícias*/
 
-body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p > span:nth-child(1) > a > img, body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p > span:nth-child(1) > a > img, body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p > span:nth-child(1) > a > img, body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p > span:nth-child(1) > a > img, body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p > span:nth-child(1) > a > img {
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p > span:nth-child(1) > a > img,
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p > span:nth-child(1) > a > img,
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p > span:nth-child(1) > a > img,
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p > span:nth-child(1) > a > img,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p > span:nth-child(1) > a > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p > span:nth-child(1) > a > img,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p > span:nth-child(1) > a > img {
     background: url(https://cdn2.iconfinder.com/data/icons/picons-basic-3/57/basic3-005_newspaper-32.png) no-repeat;
     box-sizing: border-box;
     display: flex;
@@ -293,9 +534,16 @@ body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > t
     width: 32px;
 }
 
+
 /*Icone superior de ajuda*/
 
-body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p > span:nth-child(1) > a > img, body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p > span:nth-child(1) > a > img, body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p > span:nth-child(1) > a > img, body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p > span:nth-child(1) > a > img, body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p > span:nth-child(1) > a > img {
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p > span:nth-child(1) > a > img,
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p > span:nth-child(1) > a > img,
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p > span:nth-child(1) > a > img,
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p > span:nth-child(1) > a > img,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p > span:nth-child(1) > a > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p > span:nth-child(1) > a > img,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p > span:nth-child(1) > a > img {
     background: url(https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-help-32.png) no-repeat;
     box-sizing: border-box;
     display: flex;
@@ -304,9 +552,16 @@ body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > t
     width: 32px;
 }
 
+
 /*Icone superior para logout*/
 
-body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(1) > a > img, body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(1) > a > img, body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(1) > a > img, body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(1) > a > img, body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(1) > a > img {
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(1) > a > img,
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(1) > a > img,
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(1) > a > img,
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(1) > a > img,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(1) > a > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(1) > a > img,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(1) > a > img {
     background: url(https://cdn3.iconfinder.com/data/icons/meanicons-base/512/meanicons_66-32.png) no-repeat;
     box-sizing: border-box;
     display: flex;
@@ -315,73 +570,122 @@ body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > t
     width: 32px;
 }
 
+
 /*Margem superior e inferior dos icones superiores*/
 
-body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td > p, body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p, body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p, body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td > p, body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p, body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p, body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p, body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p, body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p, body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p, body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p, body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p {
-    margin: 0em;
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td > p,
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p,
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p,
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td > p,
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p,
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(2) > p,
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p,
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p,
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(2) > p,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(3) > p,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p {
+    margin: 0px;
 }
+
 
 /*Correção para o texto "sair" referente ao icone superior*/
 
-body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(2) > font > span > a, body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(2) > font > span > a, body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(2) > font > span > a, body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(2) > font > span > a, body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(2) > font > span > a {
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(2) > font > span > a,
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(2) > font > span > a,
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(2) > font > span > a,
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(2) > font > span > a,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(2) > font > span > a,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(2) > font > span > a,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(4) > p > span:nth-child(2) > font > span > a {
     padding-right: 17px;
 }
 
-/*Largura da coluna do nome do aluno no canto superior esquerdo*/
 
-body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2), body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2), body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2), body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(2) > td:nth-child(2), body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) {
-    vertical-align: middle;
-    padding-top: 0.5em;
-    display: flex;
+/*Ajustes da coluna do nome do aluno no canto superior esquerdo*/
+
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2),
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2),
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2),
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(2) > td:nth-child(2),
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2),
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2),
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) {
+    padding-top: 5px;
+    display: block;
     justify-content: center;
 }
 
+
 /*Cor do nome do aluno*/
 
-body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td > p > span > b > font > span, body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td > p > span > b > font > span, body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td > p > span > b > font > span, body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(2) > td > p > span > b > font > span, body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td > p > span > b > font > span {
-    color: #1565C0 ;
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td > p > span > b > font > span,
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td > p > span > b > font > span,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td > p > span > b > font > span,
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(2) > td > p > span > b > font > span,
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td > p > span > b > font > span,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td > p > span > b > font > span,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > span > b > font > span {
+    color: #1565C0;
 }
+
 
 /*Bloco superior da pagina*/
 
-body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p, body > table > tbody > tr:nth-child(1) > td > p, body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p, body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p, body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p, body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p, body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p {
-    margin: 0em;
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p,
+body > table > tbody > tr:nth-child(1) > td > p,
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p,
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(1) > td:nth-child(3) > p > table > tbody > tr > td:nth-child(1) > p,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p {
+    margin: 0px;
 }
+
 
 /*Espaçamento entre linhas do menu superior*/
 
 body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) {
-    padding-top: 0.5em;
+    padding-top: 5px;
 }
 
-/*Espaçamento entre a linha do menu superior e do menu inferior, e espaçamento horizontal entre blocos da linha inferior*/
 
-body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td, body > table > tbody > tr:nth-child(2) > td, body > form > table > tbody > tr:nth-child(2) > td:nth-child(1), body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) {
-    padding-top: 1em;
-    padding-left: 1em;
+/*Espaçamento vertical entre blocos superior e inferior*/
+
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td,
+body > table > tbody > tr:nth-child(2) > td,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1),
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(2) {
+    padding-top: 10px;
 }
 
-/*Ajuste das diferenças de altura entre card box principal e menu lateral*/
 
-body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(2), body > table > tbody > tr:nth-child(2) > td:nth-child(2) {
-    padding-top: 1.25em;
+/*Espaçamento espcial do menu lateral com o bloco do conteúdo principal*/
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p {
+    margin-right: 10px !important;
 }
 
-/*Caso especial do card box do calendário*/
-body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(2) {
-    display: flex;
-    justify-content: flex-start;
-}
 
 /*Tabela do calendário*/
 
-#calendar table {
-    border: none ;
+#calendar table,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(9) > td > center > table,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(9) > td > center > table > tbody > tr:nth-child(2) > td > center > table {
+    border: none;
 }
+
 
 /*Substituição do icone de pin*/
 
-#calendar img, body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(5) > td > p > table > tbody > tr > td > p > img {
+#calendar img,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(5) > td > p > table > tbody > tr > td > p > img {
     background: url(https://cdn4.iconfinder.com/data/icons/REALVISTA/project_managment/png/32/task_notes.png) no-repeat;
     box-sizing: border-box;
     height: 24px;
@@ -410,7 +714,8 @@ body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(2) {
     animation: float 5s infinite;
 }
 
-#Calendar > table > tbody > tr > td > table th {
+#Calendar > table > tbody > tr > td > table th,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(9) > td > center > table > tbody > tr:nth-child(2) > td > center > table td {
     background: steelblue;
     height: 54px;
     font-weight: lighter;
@@ -431,43 +736,259 @@ body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(2) {
     color: steelblue;
 }
 
-::-moz-selection {
-    background: steelblue;
-    color: white;
+
+/*Tabela de Notas*/
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr > td:nth-child(1) {
+    display: none;
 }
 
-::selection {
-    background: steelblue;
-    color: white;
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr > td:nth-child(2) {
+    background-color: #d7e4ef;
 }
 
-/*Background color*/
-
-body > form > table > tbody > tr:nth-child(1) > td, body > form > table > tbody > tr:nth-child(2) > td:nth-child(1), body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(2) > td:nth-child(3), body > form > table > tbody > tr:nth-child(2) > td:nth-child(3), body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3), body > table > tbody > tr:nth-child(1) > td > p > table > tbody, body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2), body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3), body > table > tbody > tr:nth-child(2) > td:nth-child(1), body > table > tbody > tr:nth-child(2) > td:nth-child(2), body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3), body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3), body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td {
-    background-color: #ECEFF1;
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(1) > tbody > tr:nth-child(2) > td {
+    background-color: steelblue;
 }
 
-/*Largura do menu lateral esquerdo*/
-
-body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1), body > form > table > tbody > tr:nth-child(2) > td:nth-child(1), body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table, body > table > tbody > tr:nth-child(2) > td:nth-child(1) {
-    width: 14em;
-}
-
-/*Remoção das bordas das tabelas do menu lateral esquerdo*/
-
-body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr > td > table > tbody > tr > td, body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(11), body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(12), body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6), body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(7), body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(1) > td, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(11) > td, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6) > td, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(11), body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(12), body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6), body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(7), body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(1) > td, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(11) > td, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(12) > td, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6) > td, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(11), body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(12), body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6), body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(7), body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(1) > td:nth-child(2), body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(11) > td:nth-child(2), body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td:nth-child(2), body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td, table.menulateral1, body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6) > td:nth-child(2) {
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr:nth-child(odd) > td,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(9) > td > center > table > tbody > tr:nth-child(odd) > td {
+    background-color: #FFFFFF;
     border: none;
 }
 
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr:nth-child(even) > td,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(9) > td > center > table > tbody > tr:nth-child(even) > td {
+    background-color: #EBEBEB;
+    border: none;
+}
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr > td:nth-child(4) > p,
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p,
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p,
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2)> p {
+    display: flex;
+    justify-content: center;
+}
+
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(2) > td:nth-child(2) {
+    display: flex !important;
+}
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr:nth-child(2) > td {
+    border: none;
+}
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(2) {
+    display: none;
+}
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(1) > tbody > tr:nth-child(2) > td > p > b:nth-child(2) > font > span,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(1) > tbody > tr:nth-child(2) > td > p > font > span {
+    color: white;
+}
+
+
+/*Aulas*/
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(1) > tbody > tr:nth-child(2) > td:nth-child(2) > p > b > font > span {
+    color: #8BC34A;
+}
+
+
+/*Faltas*/
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(1) > tbody > tr:nth-child(2) > td:nth-child(3) > p > b > font > span {
+    color: #F44336;
+}
+
+
+/*Faltas link*/
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(1) > tbody > tr:nth-child(2) > td:nth-child(3) > p > font:nth-child(3) > span > a {
+    color: #263238;
+}
+
+
+/*Faltas link hover*/
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(1) > tbody > tr:nth-child(2) > td:nth-child(3) > p > font:nth-child(3) > span > a:hover {
+    color: #FF5722;
+}
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(1) > td {
+    display: flex;
+    vertical-align: middle;
+    font-size: 21px;
+    background-color: white;
+    color: #616161;
+    padding: 5px 10px;
+}
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) > tbody > tr > td:nth-child(2) > p > font > span {
+    color: black;
+}
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3),
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(9) > td > center {
+    padding-bottom: 50px;
+}
+
+.class1 table td {
+    height: 30px;
+    width: 100%;
+    padding: 5px 5px 0px 5px;
+}
+
+.class1 table a {
+    text-decoration: none;
+    color: #0D47A1;
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+}
+
+.class1 > table a:hover {
+    color: #FF5722;
+}
+
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(6) > td > p:nth-child(3) > table > tbody > tr:nth-child(2) > td > p > span > table > tbody > tr > td > p > table:nth-child(2) {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: float 5s infinite;
+}
+
+.class1 table th {
+    background: steelblue;
+    height: 54px;
+    font-weight: lighter;
+    text-shadow: 0 1px 0 #38678f;
+    color: white;
+    border: 1px solid #E0E0E0;
+    box-shadow: inset 0px 1px 2px #568ebd;
+    transition: all 0.2s;
+}
+
+.class1 table td.selected {
+    background: #d7e4ef;
+    color: white;
+}
+
+.class1 table td input:focus {
+    box-shadow: 0 1px 0 steelblue;
+    color: steelblue;
+}
+
+
+/*Background color*/
+
+#top_nav,
+body > form > table > tbody > tr:nth-child(1) > td,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1),
+body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(2) > td:nth-child(3),
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(3),
+body > p:nth-child(1) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3),
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody,
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2),
+body > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3),
+body > table > tbody > tr:nth-child(2) > td:nth-child(1),
+body > table > tbody > tr:nth-child(2) > td:nth-child(2),
+body > form > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3),
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3),
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr > td,
+body > p:nth-child(1) > table > tbody > tr > td > center > table,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3),
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(1) > td > p > table > tbody > tr:nth-child(2) > td:nth-child(3) {
+    background-color: #ECEFF1;
+}
+
+
+/*Largura do menu lateral esquerdo*/
+
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table {
+    width: 232px;
+}
+
+
+/*Remoção das bordas das tabelas do menu lateral esquerdo*/
+
+table.menulateral1,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr > td > table > tbody > tr > td,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(11),
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(12),
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6),
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(7),
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(1) > td,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(11) > td,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6) > td,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(11),
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(12),
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6),
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(7),
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(1) > td,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(11) > td,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(12) > td,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6) > td,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(11),
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(12),
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6),
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(7),
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(1) > td:nth-child(2),
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(11) > td:nth-child(2),
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td:nth-child(2),
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6) > td:nth-child(2),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(1) > td:nth-child(2),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td:nth-child(2),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(11) > td:nth-child(2),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6) > td:nth-child(2),
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(10) > td:nth-child(2),
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(10) > td:nth-child(2),
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(1) > td:nth-child(2),
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(10) > td:nth-child(2),
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td:nth-child(2),
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6) > td:nth-child(2),
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(1) > td:nth-child(2),
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(10) > td:nth-child(2),
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(1) > td:nth-child(2),
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(6) > td:nth-child(2) {
+    border: none;
+}
+
+
 /*Leve borda entre os itens do menu esquerdo*/
 
-body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr > td > table > tbody > tr, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr {
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr > td > table > tbody > tr,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr {
     border-bottom: 1px solid #ECEFF1;
 }
 
+
 /*Icone da avaliação docente*/
 
-body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(10) > td > table > tbody > tr > td:nth-child(1) > img, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(10) > td > table > tbody > tr > td:nth-child(1) > img, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(10) > td > table > tbody > tr > td:nth-child(1) > img, body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(10) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(10) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(10) > td > table > tbody > tr > td:nth-child(1) > img,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(10) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(10) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn4.iconfinder.com/data/icons/office-and-business-vol-3/32/844_office_employee_mman_performance_rating_statics_figures-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -480,7 +1001,13 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tb
     background-color: white;
 }
 
-body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img, body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(2) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn4.iconfinder.com/data/icons/small-n-flat/24/calendar-alt-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -489,7 +1016,13 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tb
     width: 32px;
 }
 
-body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img, body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(3) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678120-calendar-clock-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -498,7 +1031,13 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tb
     width: 32px;
 }
 
-body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img, body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(4) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn3.iconfinder.com/data/icons/education-1-9/48/22-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -507,7 +1046,13 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tb
     width: 32px;
 }
 
-body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img, body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(5) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn2.iconfinder.com/data/icons/email-solid-style/24/envelope---32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -516,7 +1061,13 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tb
     width: 32px;
 }
 
-body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img, body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(6) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn2.iconfinder.com/data/icons/color-ui-kit/48/settings-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -525,7 +1076,13 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tb
     width: 32px;
 }
 
-body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img, body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(7) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn4.iconfinder.com/data/icons/ikooni-outline-seo-web/128/seo-71-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -534,7 +1091,13 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tb
     width: 32px;
 }
 
-body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img, body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(8) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn3.iconfinder.com/data/icons/random-flat-2/64/email_contact_write_send-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -543,7 +1106,13 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tb
     width: 32px;
 }
 
-body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img, body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img {
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(1) > td > table > tbody > tr:nth-child(9) > td > table > tbody > tr > td:nth-child(1) > img {
     background: url(https://cdn3.iconfinder.com/data/icons/flat-icons-web/40/Versions-32.png) no-repeat;
     box-sizing: border-box;
     display: block;
@@ -552,29 +1121,59 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tb
     width: 32px;
 }
 
+
 /*Espaçamento entre os cards do menu lateral esquerdo*/
 
-body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table, body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table {
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(2) > td > table {
     margin-top: 30px;
 }
 
+
 /*Box shadow para os cards no menu lateral esquerdo*/
 
-body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td, body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table, body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table, body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table {
-    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
-    -moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
-    -webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.3);
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table,
+body > p:nth-child(1) > table > tbody > tr > td > center > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(1) > td > table,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(2) > td > table,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(1) > td > table {
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
 }
+
 
 /*Espaçamento do titulo do menu das disciplinas*/
 
-body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td, body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td {
-    padding: 0.5em 0em;
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td,
+body > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td {
+    padding: 5px 0px;
 }
+
 
 /*Título do menu das disciplinas na lateral esquerda*/
 
-body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td > b, body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td > b, body table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td > b {
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td > b,
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td > b,
+body table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td > b,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > font > span > table > tbody > tr:nth-child(2) > td > table > tbody > tr:nth-child(2) > td > b {
     color: #2196F3;
     font-family: Calibri, sans-serif;
     font-size: 20px;
@@ -582,14 +1181,16 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(1) > p > table > tb
     text-align: left;
 }
 
-body > form > table > tbody > tr:nth-child(2) > td:nth-child(2), body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) {
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2),
+body > p:nth-child(1) > table > tbody > tr:nth-child(2) > td:nth-child(2),
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) {
     background-color: #ECEFF1;
-    width: 101em;
-    padding: 1.25em 1em 1em 1em;
+    width: 87.5%;
+    padding: 14px 10px 10px 10px;
 }
 
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(6) > td {
-    padding-bottom: 0.5em;
+    padding-bottom: 5px;
 }
 
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(6) > td > a:nth-child(3) {
@@ -630,7 +1231,7 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table
 
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(5) > td > center > table > tbody > tr:nth-child(1) > td {
     background-color: white;
-    padding: 1em;
+    padding: 10px;
 }
 
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr:nth-child(5) > td > center > table > tbody > tr:nth-child(1) > td:after {
@@ -643,7 +1244,7 @@ body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table
 }
 
 body > form > table > tbody > tr:nth-child(2) > td:nth-child(3) {
-    display: none;
+    width: 0;
 }
 
 body > form > table > tbody > tr:nth-child(3) > td {
@@ -654,16 +1255,8 @@ table tbody tr td > table tbody tr td p {
     display: none;
 }
 
-table tbody tr:nth-child(2) td:nth-child(2)>center > table > tbody > tr:nth-child(3) {
-    display: none;
-}
-
-table tbody tr:nth-child(2) td:nth-child(2)>center > table > tbody > tr:nth-child(7) {
-    display: none;
-}
-
 body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > tbody > tr:nth-child(2) > td > p {
-    margin: auto 0em;
+    margin: auto 0px;
 }
 
 .botao {
@@ -689,7 +1282,8 @@ body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > t
     -ms-user-select: none;
 }
 
-.botao:focus, .botao.focus {
+.botao:focus,
+.botao.focus {
     color: #ffffff;
     background-color: #0c7cd5;
     border-color: rgba(0, 0, 0, 0);
@@ -701,17 +1295,35 @@ body > form > table > tbody > tr:nth-child(1) > td > p > font > span > table > t
     border-color: rgba(0, 0, 0, 0);
 }
 
-.botao:active, .botao.active, .open > .dropdown-toggle.botao {
+.botao:active,
+.botao.active,
+.open > .dropdown-toggle.botao {
     background-image: none;
 }
 
-.botao:active:hover, .botao.active:hover, .open > .dropdown-toggle.botao:hover, .botao:active:focus, .botao.active:focus, .open > .dropdown-toggle.botao:focus, .botao:active.focus, .botao.active.focus, .open > .dropdown-toggle.botao.focus {
+.botao:active:hover,
+.botao.active:hover,
+.open > .dropdown-toggle.botao:hover,
+.botao:active:focus,
+.botao.active:focus,
+.open > .dropdown-toggle.botao:focus,
+.botao:active.focus,
+.botao.active.focus,
+.open > .dropdown-toggle.botao.focus {
     color: #ffffff;
     background-color: #0a68b4;
     border-color: rgba(0, 0, 0, 0);
 }
 
-.botao.disabled:hover, .botao[disabled]:hover, fieldset[disabled] .botao:hover, .botao.disabled:focus, .botao[disabled]:focus, fieldset[disabled] .botao:focus, .botao.disabled.focus, .botao[disabled].focus, fieldset[disabled] .botao.focus {
+.botao.disabled:hover,
+.botao[disabled]:hover,
+fieldset[disabled] .botao:hover,
+.botao.disabled:focus,
+.botao[disabled]:focus,
+fieldset[disabled] .botao:focus,
+.botao.disabled.focus,
+.botao[disabled].focus,
+fieldset[disabled] .botao.focus {
     background-color: #2196f3;
     border-color: transparent;
 }
@@ -722,8 +1334,9 @@ option {
     color: #616161;
 }
 
-#NavBar > table > tbody > tr > td:nth-child(3) > select, #NavBar > table > tbody > tr > td:nth-child(4) > input[type="text"] {
-    height: 2em;
+#NavBar > table > tbody > tr > td:nth-child(3) > select,
+#NavBar > table > tbody > tr > td:nth-child(4) > input[type="text"] {
+    height: 33px;
     font-family: Calibri, sans-serif;
     font-size: 18px;
     font-weight: bold;
@@ -731,3 +1344,191 @@ option {
     text-align: center;
 }
 
+
+/*Ajustes das páginas das disciplinas*/
+
+.menu-sel_01 > div > div,
+.menu-sel_02 > div > div {
+    background: white;
+    border-color: #0D47A1;
+    border-width: 0px 0px 2px 0px;
+    color: #0D47A1;
+    display: block;
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    height: 1em;
+    line-height: 1.846;
+    margin: auto;
+    margin-right: 2px;
+    padding: 0px 0px 14px 0px;
+}
+
+#div_apoio > table > tbody > tr > td > a,
+#div_comunicacao > table > tbody > tr > td > a {
+    background: white;
+    color: #616161;
+    display: block;
+    font-family: Calibri, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    height: 1em;
+    line-height: 1.846;
+    padding: 0px 0px 14px 0px;
+}
+
+#div_apoio > table > tbody > tr > td > a:hover,
+#div_comunicacao > table > tbody > tr > td > a:hover {
+    background: #2196F3;
+    color: white;
+}
+
+#div_apoio,
+#div_comunicacao,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(3) > td,
+#div_apoio > table > tbody > tr > td,
+#div_comunicacao > table > tbody > tr > td {
+    background: transparent;
+    border: none;
+    padding: 0px;
+}
+
+.aba01 > div > div,
+.aba02 > div > div {
+    background: white;
+    border-color: #E0E0E0;
+    border-width: 0px 0px 2px 0px;
+    color: #616161;
+    display: block;
+    font-family: Calibri, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    height: 1em;
+    line-height: 1.846;
+    margin: auto;
+    margin-right: 2px;
+    padding: 0px 0px 14px 0px;
+}
+
+.aba01 > div > div:hover,
+.aba02 > div > div:hover {
+    border-bottom-color: #1565C0;
+    color: #0D47A1;
+}
+
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a:last-child > img,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr > td > p > font > span > table > tbody > tr > td:nth-child(1) > a:last-child > img {
+    background: url(https://cdn3.iconfinder.com/data/icons/Iconshock_Folders/png/NORMAL/24/documents.png) no-repeat;
+    box-sizing: border-box;
+    height: 24px;
+    padding-left: 24px;
+    width: 24px;
+}
+
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon1,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon2,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon3,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon4,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon5,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon6,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon7,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon8,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon9,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon10,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon11,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon12,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon13,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon14,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon15,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon16,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon17,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon18,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon19,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon20,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon21,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon22,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon23,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon24,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon25,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon26,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon27,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon28,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon29,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon30,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon31,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon32,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon33,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon34,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon35,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(9) > td > p > table > tbody > tr > td:nth-child(2) > p > b > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon36,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr > td > p > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon3,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr > td > p > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon4,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr > td > p > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon5,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr > td > p > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon3,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr > td > p > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon6,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr > td > p > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon7,
+body > form > p:nth-child(3) > table > tbody > tr > td > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr:nth-child(4) > td > center > table > tbody > tr > td > p > font > span > table > tbody > tr > td:nth-child(1) > a > #itemIcon8,
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(6) > td > p > table > tbody > tr:nth-child(4) > td:nth-child(2) > p > img {
+    background: url(https://cdn1.iconfinder.com/data/icons/fs-icons-ubuntu-by-franksouza-/22/document-save-as.png) no-repeat;
+    box-sizing: border-box;
+    height: 24px;
+    padding-left: 24px;
+    width: 24px;
+}
+
+body > form > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(11) > td > center > table > tbody > tr > td > p > table > tbody > tr:nth-child(1) > td:nth-child(1) > p > span:nth-child(1) > img {
+    background: url(https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678120-calendar-clock-24.png) no-repeat;
+    box-sizing: border-box;
+    height: 24px;
+    padding-left: 24px;
+    width: 24px;
+}
+
+body > form > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(11) > td > center > table > tbody > tr:nth-child(odd) > td {
+    background-color: white;
+    padding: 5px;
+}
+
+body > form > p > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table > tbody > tr > td > center > table > tbody > tr:nth-child(11) > td > center > table > tbody > tr:nth-child(even) > td {
+    padding: 5px;
+}
+
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table > tbody > tr:nth-child(6) > td > p > table > tbody > tr > td:nth-child(1) > p > img {
+    background: url(https://cdn4.iconfinder.com/data/icons/square-2/30/square_checked_verified-16.png) no-repeat;
+    box-sizing: border-box;
+    height: 16px;
+    padding-left: 16px;
+    width: 16px;
+}
+
+.tb_conteudo {
+    border: none;
+}
+
+.com_efeito::selection {
+    background-color: black;
+}
+
+.celuladiferente {
+    display: none;
+}
+
+body > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table,
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) > td:nth-child(2) > center > table,
+body > form > table > tbody > tr:nth-child(2) > td:nth-child(2) > p > table {
+    background-color: white;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.3);
+    margin-left: 10px;
+    padding: 0 10px;
+    width: 98%;
+}
+
+
+/*Ajuste do card box central*/
+
+body > form > table > tbody > tr:nth-child(2),
+body > form > p:nth-child(3) > table > tbody > tr:nth-child(2) {
+    display: block;
+}

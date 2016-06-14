@@ -1,2 +1,3 @@
-# sgabeautify
-Software Engineering project for new CSS view for the SGA of PUC Minas University.
+# SGA Beautify
+
+Projeto desenvolvido por alunos da PUC Minas, do curso de Engenharia de Software, disciplina de Trabalho Integrado de Software I.
